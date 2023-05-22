@@ -2,6 +2,8 @@ module github.com/rancher/apiserver
 
 go 1.20
 
+replace github.com/rancher/wrangler => github.com/rayandas/wrangler v1.27-rancher1
+
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/golang/mock v1.6.0
